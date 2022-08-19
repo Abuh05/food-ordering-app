@@ -1,9 +1,11 @@
 import './App.css';
+import {Header} from './component/Header';
+import Navigation from './navigation';
 
 function App() {
   return (
     <div className="App">
-     Hello
+    <Navigation />
     </div>
   );
 }
