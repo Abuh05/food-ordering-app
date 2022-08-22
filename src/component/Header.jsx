@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
-   <nav id='header' className='bg-black text-white'>
+   <nav id='header' className='bg-indigo-700 text-white'>
     <div className='w-full container mx-auto flex flex-wrap items-center justify-between'>
         <div className='logo-wrapper pl-4 flex items-center'>
           <Link to="/" className="toggleColor text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl">

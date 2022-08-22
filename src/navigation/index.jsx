@@ -12,10 +12,9 @@ import Menu from '../pages/Menu/Menu'
 const Navigation = () => (
     <BrowserRouter>
         <Header />
-
         <Routes>
-            <Route path="/" element={<Home />}/>
-            <Route path="/login" element={<Login />}/>
+            <Route exact path="/" element={<Home />}/>
+            <Route exact path="/login" element={<Login />}/>
             <Route path="/menu" element={<Menu />}/>
             <Route path="/cart" element={<Cart />}/>
             <Route path="/payment-success" element={<Payment/>}/>
